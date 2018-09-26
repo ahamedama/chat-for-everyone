@@ -1,2 +1,4 @@
 # chat-for-everyone
-This is in beta stage of chat application. Feel free to contribute for this repo
+An Ultimate chat app for the future generation. 
+This is in beta stage of chat application. 
+Feel free to contribute to this repo through developement branch
