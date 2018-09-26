@@ -1,0 +1,125 @@
+
+.whole-bx {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.chat-bg {
+  background-color: #e5ddd5;
+}
+
+.header-cl {
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  height: 59px;
+  width: 100%;
+  -webkit-align-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+  background-color: #eeeeee;
+  padding: 10px 16px;
+}
+
+.content-bx {
+  -webkit-flex: 1 1 0;
+  flex: 1 1 0;
+  -webkit-order: 2;
+  order: 2;
+  position: relative;
+  z-index: 1;
+}
+
+.sub-content-bx {
+  box-sizing: border-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    transition: background .3s ease-out .1s;
+    width: 100%;
+    z-index: 100;
+}
+
+.auto-organizer {
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 12px;
+}
+
+.msg-area {
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-bottom: 8px;
+  transition: padding-left 0.3s cubic-bezier(0.69, 0, 0.79, 0.14);
+  padding-left: 0;
+}
+
+.optimal-padder {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.optimal-padder:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.justify-msg {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.generic-msg-p-1 {
+  background-color: rgba(225, 245, 254, 0.92);
+  border-radius: 7.5px;
+  box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+  padding: 5px 12px 6px 12px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.generic-msg-p-2 {
+box-sizing: border-box;
+color: rgba(69, 90, 100, 0.95);
+display: inline-block;
+-webkit-flex: none;
+flex: none;
+font-size: 12.5px;
+line-height: 21px;
+}
+
+.msg-font-prop {
+  font-family: "Open Sans", sans-serif;
+    font-size: 13.6px;
+    line-height: 19px;
+    color: #262626;
+    position: relative;
+    border-radius: 7.5px;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+}
+
+.typed-msg-char {
+  background-color: #dcf8c6;
+  float: right;
+}
+
+.typed-msg-bg {
+padding: 6px 7px 8px 9px;
+}
