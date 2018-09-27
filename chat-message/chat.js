@@ -6,3 +6,6 @@ Warning : Don't edit this block of comments. You can add yours below the mark.
 // ----------------------------------------------------------------------------
 
 // Not yet coded. Feel free to contribute
+function myFunction() {
+    alert("The form was submitted");
+}
